@@ -1,0 +1,12 @@
+{application, acl,
+ [
+  {description, "access control list"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { acl_app, []}},
+  {env, []}
+ ]}.
